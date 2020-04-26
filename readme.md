@@ -1,6 +1,6 @@
 ## Installation
 
-1. Copy this git repository
+1. Clone this git repository
 
 2. edit .env files according with your database configuration
 
