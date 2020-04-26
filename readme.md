@@ -4,18 +4,13 @@
 
 2. edit .env files according with your database configuration
 
-3. Open a terminal at the app directory and run:
-```
-composer install
-```
-
-4. Generate app key
+3. Open a terminal at the app directory and Generate app key (i already include the vendor, so you dont have to install the composer)
 ```
 php artisan key:generate
 ```
-5. Make the database with utf8mb4 character set and utf8mb4_general_ci collation
+4. Make the database with utf8mb4 character set and utf8mb4_general_ci collation
 
-6. Migrating to database
+5. Migrating to database
 ```
 php artisan migrate --seed
 ```
