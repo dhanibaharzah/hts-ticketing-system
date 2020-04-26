@@ -1,6 +1,6 @@
 {
-    "name": "balping/ticketit-app",
-    "description": "Ticketit, the simple helpdesk tickets system pre-installed in Laravel",
+    "name": "hts-tcketing-system",
+    "description": "Laravel Management Ticketing System for Helpdesk",
     "keywords": ["ticketit","laravel","helpdesk","ticket","support"],
     "license": "MIT",
     "type": "project",
@@ -9,7 +9,13 @@
         "fideloper/proxy": "^4.0",
         "kordy/ticketit": "^0.4",
         "laravel/framework": "^6.0",
-        "laravel/tinker": "^1.0"
+        "laravel/tinker": "^1.0", 
+        "laravelcollective/html": "^5.1|^6.0",
+        "illuminate/support": "^5.1|^6.0",
+        "yajra/laravel-datatables-oracle": "^6.0|^8.0|^9.4",
+        "jenssegers/date": "^3.0",
+        "mews/purifier": "^2.0|^3.1",
+        "doctrine/dbal": "^2.5|^2.6"
     },
     "require-dev": {
         "facade/ignition": "^1.4",

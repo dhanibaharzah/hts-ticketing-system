@@ -4,7 +4,7 @@
 
 2. edit .env files according with your database configuration
 
-3. Open a terminal at the app directory and Generate app key (i already include the vendor, so you dont have to install the composer)
+3. Open a terminal at the app directory and Generate app key (i already include the vendor folders, so you dont have to install the composer)
 ```
 php artisan key:generate
 ```
